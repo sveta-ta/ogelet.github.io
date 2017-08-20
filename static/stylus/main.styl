@@ -119,9 +119,32 @@ button
   height 30px
   display flex
   align-items center
-  .header-item
+  .header-item-about
     display flex
-    align-items top
+    align-items center
+.header-top-link
+  color #fff
+  font-size 11px
+  text-transform uppercase
+  font-weight 400
+  position relative
+  padding-left 22px
+  &:before
+    content ""
+    display inline-block
+    position absolute
+    width 20px
+    height 30px
+    left 0
+    top -9px
+.heder-top-link--shipping
+  padding-left 30px
+  &:before
+    background: url("../img/delivery.png") center center no-repeat
+.heder-top-link--original:before
+  background: url("../img/label.png") center center no-repeat
+.heder-top-link--phone:before
+  background: url("../img/phone.png") center center no-repeat
 .header_top-line .container
   display flex
   justify-content space-between
@@ -132,13 +155,16 @@ button
 .heder-top-icon
   margin-right 10px
 .header_middle-line
-  height 105px
   background-color #fafafa
   .container
+    min-height 105px
     display flex
     justify-content space-between
     height 100%
     align-items center
+    padding-bottom 12px
+.heder-enter
+  flex-basis 235px
 .header-item-title
   display flex
   align-items center
@@ -195,7 +221,7 @@ button
     top 0
     right 0
 .header-slider-item
-  background url("../img/bg-header.jpg") center top no-repeat
+  background url("../img/bg-header.jpg") center top no-repeat, linear-gradient(to right, #f4f5f9,#dddddf)
   height 440px
   .container
     display flex
