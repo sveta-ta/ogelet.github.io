@@ -1,0 +1,39 @@
+extends ../layout/main
+
+block title
+	| Museum
+
+block content
+	.main_content
+		.container
+			section.news
+				h2.section_title News
+				.front_news
+					a.news_link(href="#")
+						img.news_picture(src="static/img/content/museum.jpg", alt="Музей-сядзіба «Пружанскі палацык»")
+					span.publish_date 27 july 2017 
+					a.news_link(href="#")
+						h4.news_title Old master paintings #[br]  given to National Gallery
+				ul.news_list
+					li.news_item
+						span.publish_date 11 October 2016
+						a.news_link(href="#") 
+							h4.news_title Books
+							p.news_intro Rare fan painting of Bath gives glimpse of life in Georgian England 
+					li.news_item
+						span.publish_date 4  October 2017 
+						a.news_link(href="#")
+							h4.news_title New
+							p.news_intro A hand-painted fan showing a long-lost view of a Bath landmark that Jane Austen.
+			section.for_specialists
+				h2.section_title Specialists
+				.for_specialists_item
+					span.category Conferences / Meetings
+					p.description London to host self-curated Azzedine Alaïa exhibition next spring
+				.for_specialists_item
+					span.category Teaching materials
+					p.description Uniform reference technician / manufacturing techniques of museum objects
+	section.map
+		.container
+			a.map_link(href="#") Map of #[br] Europe museums
+			a.subjects_link(href="#") Objects from the catalog #[br] settlements

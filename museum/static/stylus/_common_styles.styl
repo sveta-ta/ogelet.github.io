@@ -1,0 +1,130 @@
+html,body
+	height 100%
+	min-height 100vh
+.preloader_wrapper
+	position: fixed
+	top 0
+	bottom 0
+	right 0
+	left 0
+	background #fff
+	width 100%
+	min-height 100vh
+	text-align center
+	display block
+	z-index 9999
+	img
+		position relative
+		top 50vh
+		transform translateY(-50%)
+.main_content .container
+	display -webkit-flex
+	display -moz-flex
+	display -ms-flex
+	display -o-flex
+	display flex
+	justify-content space-between
+	padding 100px 30px 20px
+.section_title
+	font 700 36px slab
+	margin-bottom 50px
+	width 100%
+.news
+	width 65%
+	vertical-align top
+.front_news
+	display inline-block
+	width 49%
+	margin-right 1%
+	vertical-align top
+	img
+		margin-bottom 22px
+	.news_title
+		color #000
+		line-height 1.2
+		font 700 22px slab
+.publish_date
+	font 300 15px mainFont
+	display block
+	color #818184
+	margin-bottom 20px
+.news_list
+	display inline-block
+	width 49%
+	font 400 18px slab
+	line-height 1.2
+	.news_title
+		font 400 24px slab
+		margin-bottom 20px
+		color #000
+	.news_item
+		&:not(:last-child):after
+			content ''
+			width 100%
+			height 1px
+			display block
+			margin 35px 0 30px
+			background #e8e8e8
+	.news_intro
+		color #1b1b22
+		font-weight 400
+.for_specialists
+	width 35%
+	padding-left 80px
+.for_specialists_item
+	font 400 18px mainFont
+	&:not(:last-child):after
+		content ''
+		width 100%
+		height 1px
+		display block
+		margin 35px 0 30px
+		background #e8e8e8
+	.category
+		color #e79b17
+		margin-bottom 15px
+		display block
+section.map
+	margin-bottom 50px
+	.container
+		min-height 640px
+		position relative
+.subjects_link
+	border 15px solid #1b1b22
+	display inline-block
+	padding 146px 114px
+	font 700 30px slab
+	position absolute
+	top 55px
+	line-height 1
+	right 28px
+.map_link
+	font 400 40px slab
+	line-height .9
+	color #fff
+	position absolute
+	top 330px
+	left 172px
+	background: #e1a30f
+	padding 120px 110px 120px 100px
+.mobile_menu_toggler
+	display none
+	position absolute
+	right 47px
+	top 20px
+	z-index 9999
+	.line
+		display block
+		width 32px
+		height 4px
+		background #fff
+		position absolute
+		transition all .3s ease
+		&:first-child
+			top 0
+		&:nth-child(2),
+		&:nth-child(3)
+			top 10px
+		&:nth-child(4)
+			top 20px
+

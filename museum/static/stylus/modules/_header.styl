@@ -1,0 +1,170 @@
+.header
+	background url('../img/sections/header.jpg') center
+	background-size cover
+	color #fff
+	a
+		color #fff
+.header_top
+	display -webkit-flex
+	display -moz-flex
+	display -ms-flex
+	display -o-flex
+	display flex
+	justify-content space-between
+	padding 27px 27px 0 46px
+	background rgba(72, 52, 9, 0.7)
+.logo
+	padding-top 7px
+	display -webkit-flex
+	display -moz-flex
+	display -ms-flex
+	display -o-flex
+	display flex
+	color #fff
+	height 80px
+	img
+		width 70px
+		height 70px
+	strong
+		display block
+		font-weight 400
+	.logo_text
+		align-self center
+		font 300 18px slab
+		padding-left 20px
+.language_switch,
+.main_menu
+	display -webkit-flex
+	display -moz-flex
+	display -ms-flex
+	display -o-flex
+	display flex
+	justify-content flex-end
+.language_switch
+	margin-bottom 40px
+.language_link
+	margin-left 15px
+	font 400 15px grotesk
+	transition all .2s ease
+	&.language_link__active
+		color orColor
+	&:hover, &:focus
+		color orColor
+.main_menu_item
+	margin-left 40px
+.main_menu_link
+	font 300 20px grotesk
+	display block
+	position relative
+	&.main_menu_link__active
+		font-weight 500
+		color #f7d584
+	&:hover, &:focus
+		color #f7d584
+.item_has_submenu
+	position relative
+	z-index 21
+	padding-bottom 20px
+.main_nav_submenu
+	display none
+	position absolute
+	text-align center
+	left -70px
+	right -70px
+	top 28px
+	z-index 20
+	padding-top 19px
+	.submenu_link
+		color #fff
+		background rgba(72, 52, 9, 0.7)
+		display block
+		width 100%
+		font 300 20px grotesk
+		padding 15px 0
+		margin-bottom 2px
+.submenu_item:first-child .submenu_link
+	border-radius 1px 1px 0 0
+.submenu_item:last-child .submenu_link
+	border-radius 0 0 1px 1px
+.search
+	text-align center
+	min-height 380px
+	position relative
+.search_form
+	position absolute
+	top 50%
+	left 50%
+	transform translate(-50%)
+	display block
+	width 725px
+.search_input
+	background: transparent
+	color #fff
+	border none
+	border-bottom 1px solid #fff
+	font 300 20px grotesk
+	width 685px
+	padding-left 7px
+	&::-webkit-input-placeholder
+		color #fff
+		opacity .8
+	&:-ms-input-placeholder
+		color #fff
+		opacity .8
+	&::-moz-placeholder
+		color #fff
+		opacity .8
+	&:-moz-placeholder
+		color #fff
+		opacity .8
+	&:focus::-webkit-input-placeholder
+		color #fff
+		opacity .8
+	&:focus::-moz-placeholder
+		color #fff
+		opacity .8
+	&:focus:-ms-input-placeholder
+		color #fff
+		opacity .8
+.search_btn
+	cursor pointer
+	padding-left 10px
+.catalog
+	display -webkit-flex
+	display -moz-flex
+	display -ms-flex
+	display -o-flex
+	display flex
+	justify-content space-between
+.catalog_link:not(:last-child)
+	margin-right 2px
+.header_bottom
+	padding-top 90px
+	.catalog_link
+		border-top: 1px solid rgba(255,255,255,0.14);
+		width 100%
+		display block
+		text-align center
+		padding 95px 0 40px
+		font 500 20px grotesk
+		text-transform uppercase
+		cursor pointer
+		color #fff
+.catalog_item
+	flex-basis calc(20% - 2px)
+.catalog_item__subject
+	.catalog_link
+		background url("../img/icons/catalog1.png") center 35px no-repeat,rgba(42, 34, 16, 0.7)
+.catalog_item__material
+	.catalog_link
+		background url("../img/icons/catalog2.png") center 35px no-repeat,rgba(42, 34, 16, 0.7)
+.catalog_item__museums
+	.catalog_link
+		background url("../img/icons/catalog3.png") center 35px no-repeat,rgba(42, 34, 16, 0.7)
+.catalog_item__autor
+	.catalog_link
+		background url("../img/icons/catalog4.png") center 35px no-repeat,rgba(42, 34, 16, 0.7)
+.catalog_item__type
+	.catalog_link
+		background url("../img/icons/catalog5.png") center 35px no-repeat,rgba(42, 34, 16, 0.7)
+

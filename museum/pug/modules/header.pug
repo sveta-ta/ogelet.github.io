@@ -1,0 +1,55 @@
+.preloader_wrapper
+	.preloader
+		img(src="static/img/PreloaderAnimation04.gif", alt="")
+header.header
+	.header_top
+		.logo
+			img(src="static/img/icons/logo.png", alt="Дзяржаўны каталог Музейнага фонду Рэспублікі Беларусь")
+			span.logo_text #[strong Historical] Museum
+		.mobile_menu_toggler
+			span.line
+			span.line
+			span.line
+			span.line
+		.header_nav
+			ul.language_switch
+				li.language
+					a.language_link.language_link__active(href="#") Bel
+				li.language
+					a.language_link(href="#") Rus
+				li.language
+					a.language_link(href="#") Eng
+			ul.main_menu
+				li.main_menu_item.item_has_submenu
+					a.main_menu_link.main_menu_link__active(href="#") Catalog
+					ul.main_nav_submenu
+						li.submenu_item
+							a.submenu_link(href="#") Subjects catalog
+						li.submenu_item
+							a.submenu_link(href="#") Subjectrs map
+						li.submenu_item
+							a.submenu_link(href="#") Museums map
+				li.main_menu_item
+					a.main_menu_link(href="#") News
+				li.main_menu_item
+					a.main_menu_link(href="#") Specialists
+				li.main_menu_item
+					a.main_menu_link(href="#") About
+	.search
+		form.search_form
+			input.search_input(autofocus placeholder="Search")
+			a.search_btn(href="#")
+				img(src="static/img/icons/search.png", alt="search")
+	.header_bottom
+		ul.catalog
+			li.catalog_item.catalog_item__subject
+				a.catalog_link(href="#") subject
+			li.catalog_item.catalog_item__material
+				a.catalog_link(href="#") matherials
+			li.catalog_item.catalog_item__museums
+				a.catalog_link(href="#") museums
+			li.catalog_item.catalog_item__autor
+				a.catalog_link(href="#") autors
+			li.catalog_item.catalog_item__type
+				a.catalog_link(href="#") types
+
