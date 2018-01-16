@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css">
+	<title>Document</title>
+</head>
+<body>
+	<div class="wrapper">
+		<span id="question"></span>
+		<div class="variants_wrapper">
+			<form id="variants">
+				<input id="variant_input_1" class="variant-input" type="radio" name="variants" value="first">
+				<label class="variant-label" for="variant_input_1"></label>
+				<input id="variant_input_2" class="variant-input" type="radio" name="variants" value="second">
+				<label class="variant-label" for="variant_input_2"></label>
+				<input id="variant_input_3" class="variant-input" type="radio" name="variants" value="third">
+				<label class="variant-label" for="variant_input_3"></label>
+				<input id="variant_input_4" class="variant-input" type="radio" name="variants" value="fours">
+				<label class="variant-label" for="variant_input_4"></label>
+				<input class="button" type="button" onclick="checkAnswer()" value="check">
+			</form>
+		</div>
+	</div>
+	
+	<script src="script.js"></script>
+</body>
+</html>
