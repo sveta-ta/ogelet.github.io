@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Match-match-game</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="wrapper wrapper__enter-block">
+        <div class="container">
+            <div class="greeting">
+                <h2 class="greeting_title">Welcome to the Match-match-game!</h2>
+                <h1 class="title">Rules of the Match-Match-Game</h1>
+                <p class="text">Match-match-game is easy to play, in fact it is so simple that really young children can play with ease.
+                    It requires observation, concentration and a good memory to win.
+                </p>
+                <h3 class="subtitle">Object of the Game</h3>
+                <div class="text">The object of the game is to collect the most matching pairs.</div>
+                <h3 class="subtitle">Playing Match-match-game</h3>
+                <ul class="main_list">
+                    <li class="main_list_item">Select two cards to try to match the pictures</li>
+                    <li class="main_list_item">If you match the pictures you can go again</li>
+                    <li class="main_list_item">If they don't match ig is the computer turn them</li>
+                    <li class="main_list_item">The player that finds all pairs wins</li>
+                    <li class="main_list_item">Have fun!</li>
+                </ul>
+            </div>
+            <h3 class="subtitle subtitle__big">Please fill the form</h3>
+            <form action="" id="profile_form" class="profile_form">
+                <fieldset class='fieldset'>
+                    <label for="first_name">First Name</label>
+                    <input type="text" id="first_name" required>
+                </fieldset>
+                <fieldset class='fieldset'>
+                    <label for="last_name">Last Name</label>
+                    <input type="text" id="last_name" required>
+                </fieldset>
+                <fieldset class='fieldset'>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required>
+                </fieldset>
+                <h3 class="subtitle">Choose a card shirt</h3>
+                <fieldset class='fieldset fieldset__center choose_shirt'>
+                    <input value='shirt1' id='shirt_1' name='shirt' type="radio" checked="checked">
+                    <label for="shirt_1" class="card_shirt card_shirt_1"></label>
+                    <input value='shirt2' id='shirt_2' name='shirt' type="radio">
+                    <label for="shirt_2" class="card_shirt card_shirt_2"></label>
+                </fieldset>
+                <h3 class="subtitle">Choose a number of cards</h3>
+                <fieldset class='fieldset fieldset__center choose_number'>
+                    <input value='12' id='number_12' name='number' type="radio" checked="checked">
+                    <label for="number_12">12</label>
+                    <input value='24' id='number_24' name='number' type="radio">
+                    <label for="number_24">24</label>
+                    <input value='36' id='number_36' name='number' type="radio">
+                    <label for="number_36">36</label>
+                </fieldset>
+            </form>
+            <button id="start_game" class="btn">Start the game!</button>
+        </div>
+    </div>
+    <div class="timer">
+        <span id="minutes">00</span>:
+        <span id="seconds">00</span>
+    </div>
+    <div class="wrapper wrapper_game" id="game_Field">
+        <div class="wrapper wrapper_after_game" id="after_game">
+            <h2 class="greeting_title"></h2>
+            <table class="score_table">
+
+            </table>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

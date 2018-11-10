@@ -1,0 +1,83 @@
+/* aldrich-regular - latin */
+@font-face {
+    font-family: 'Aldrich';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/aldrich-v8-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local('Aldrich Regular'), local('Aldrich-Regular'),
+         url('../fonts/aldrich-v8-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/aldrich-v8-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/aldrich-v8-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/aldrich-v8-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/aldrich-v8-latin-regular.svg#Aldrich') format('svg'); /* Legacy iOS */
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Aldrich', Arial, sans-serif;
+}
+.header{
+    background: url(../img/bg_network.png) center, linear-gradient(-15deg, #14456D, #008CA8);
+    background-size: cover;
+    color: #fff;
+    height: 100vh;
+    max-height: 100vh;
+    position: relative;
+}
+.header .title{
+    position: absolute;
+    text-align: center;
+    top: 40vh;
+    left: 50%;
+    transform: translateX(-50%);
+    font: 50px 'Aldrich', Arial, sans-serif;
+    line-height: 1.7;
+    margin: auto;
+    transition: all ease .5s .1s;
+}
+.header .title:hover{
+    font-size: 58px;
+}
+.title span{
+    color: #0d2e40;
+}
+.container{
+    max-width: 1100px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.projects{
+    padding: 80px 0;
+}
+.projects .title{
+    text-align: center;
+    font-size: 60px;
+}
+.footer{
+    padding: 30px 10px;
+    background: #0b2b41;
+    color: #fff;
+    font-size: 18px;
+}
+.footer .container{
+    justify-content: flex-end;
+    text-align: right;
+}
+.footer .title{
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+.footer a{
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+.footer svg{
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+}

@@ -1,0 +1,304 @@
+@import 'fonts.css'
+*
+    margin 0
+    padding 0
+    box-sizing border-box
+a
+ cursor pointer
+html
+    font-size 10px
+body
+    font 1.2rem "ArialNarrowRegular", Arial, sans-serif
+.logo
+    margin 15px auto
+    display block
+    text-align center
+.top_menu
+    background-color #6b9ad0
+    color #ffffff
+    text-align center
+    border-bottom 4px solid #c6defa
+    .menu_link
+        color #ffffff
+        padding 20px 33px
+        text-transform uppercase
+        text-decoration none
+        font-size 1.8rem
+        display inline-block
+        position relative
+        &:hover
+        &:focus
+            background rgba(255, 255, 255, .1)
+        &--active:after
+            content ''
+            display block
+            width 12px
+            height 12px
+            background-color #6b9ad0
+            position absolute
+            bottom -11px
+            border-bottom 4px solid #c6defa
+            border-right 4px solid #c6defa
+            transform rotate(45deg)
+            right  calc(50% - 5px)
+        &--active:hover:after
+        &--active:focus:after
+            background rgb(122, 164, 213)
+        &--about
+            display none
+            font-size 2.3rem
+            font-family ArialNarrowBold, Arial, sans-serif
+            font-weight bold
+            color #6b9ad0
+            background #7ca7d9
+            padding 20px
+            max-width 45px
+            &:hover
+            &:focus
+                background #90b8e5
+        &--tags
+            display none
+            background #7ca7d9 url("../img/tag.png") center center no-repeat
+            padding 20px 17px
+            max-width 45px
+        &--menu
+            display none
+            background url("../img/menu.png") center center no-repeat
+.container
+    max-width 985px
+    margin 0 auto
+    padding 45px 30px 55px
+    display flex
+    justify-content space-between
+    .main_content
+        max-width 69%
+    .aside
+        max-width 29%
+        margin-left 2%
+.article
+    margin-bottom 55px
+    color #69747c
+    .article_picture
+        max-width 100%
+    &_title
+        font-size 2rem
+        font-weight normal
+        margin 5px 0
+    &_description
+        border-bottom 1px solid #e2e5e8
+        border-top 1px solid #e2e5e8
+        padding 8px 0
+        display flex
+        justify-content space-between
+        align-items center
+        margin-bottom 10px
+.publish_date
+    padding 5px 5px 5px 25px
+    background url('../img/clock.png') left 5px center no-repeat
+    margin-right 20px
+    display inline-block
+.author
+    padding 5px 5px 5px 25px
+    background url('../img/foot.png') left 5px center no-repeat
+    margin-right 20px
+.share_social
+    text-align right
+    flex-grow 2
+    .social_link
+        height 25px
+        width 48px
+        background #cccccc
+        color #ffffff
+        padding 5px 5px 5px 25px
+        text-decoration none
+        border-radius 3px
+        &--facebook
+            background #3c5a98 url('../img/facebook.png') 5px center no-repeat
+            &:hover
+            &:focus
+                background #13357d url('../img/facebook.png') 5px center no-repeat
+        &--google
+            background #c25234 url('../img/google.png') 5px center no-repeat
+            &:hover
+            &:focus
+                background #a83a1d url('../img/google.png') 5px center no-repeat
+        &--twitter
+            background #00aced url('../img/twitter.png') 5px center no-repeat
+            &:hover
+            &:focus
+                background #0876a0 url('../img/twitter.png') 5px center no-repeat
+        &--vk
+            background #48729e url('../img/vk.png') 5px center no-repeat
+            &:hover
+            &:focus
+                background #2a5f97 url('../img/vk.png') 5px center no-repeat
+        &--yandex
+            background #d83933 url('../img/yandex.png') 5px center no-repeat
+            &:hover
+            &:focus
+                background #c9211b url('../img/yandex.png') 5px center no-repeat
+    .social_link--google,
+    .social_link--yandex
+        width 40px
+
+.aside .article
+    margin-bottom 30px
+    text-align justify
+    &_about
+    &_info
+        .article_title
+            text-transform uppercase
+            color #6290b4
+            font 1.8rem 400 Cantarell
+            border-bottom 5px solid #6290b4
+            margin-bottom 15px
+            &:before
+                content "?"
+                display inline-block
+                width 30px
+                height 26px
+                color #ffffff
+                background #6290b4
+                text-align center
+                padding-top 8px
+                margin-right 10px
+    &_info .article_title:before
+        content "!"
+        
+    .article_text
+        color #69747c     
+.tags
+    display flex
+    flex-wrap wrap
+    justify-content space-between
+.tag
+    padding 5px 10px 4px 14px
+    background #6290b4
+    color #fff
+    margin 5px
+    text-decoration none
+    position relative
+    z-index 70
+    cursor pointer
+    &:after
+        content ''
+        display inline-block
+        background #ffffff
+        width 8px
+        height 8px
+        left 10px
+        border-radius 4px
+        margin-left 12px
+        position relative
+        z-index 8
+    &:before
+        content ''
+        position absolute
+        right -8px
+        top 4px
+        width 15px
+        height 15px
+        background #6290b4
+        transform rotate(45deg)
+        display block
+        z-index 1
+    &:hover
+    &:focus
+        background #3398e6
+        &:before
+           background #3398e6  
+.main_content .tags
+    display none
+.footer
+    text-align center
+    padding-bottom 30px
+
+@media all and (max-width: 768px)
+    html
+        font-size 9px
+    .aside
+        display none
+    .container
+        padding 30px 0
+        .main_content
+            max-width 100%
+    .main_content .tags
+        display flex
+        justify-content center
+        padding-bottom 40px
+        .tag
+            margin 10px
+    .share_social
+        position absolute
+        top 0
+        right 0
+        display flex
+        flex-direction column
+        .social_link
+            display block
+            margin-bottom 8px
+            align-self flex-end
+    .article
+        padding 0 65px
+        position relative
+    .top_menu
+        display flex
+        justify-content space-between
+        .menu_link--about
+            display block
+        .menu_link
+            padding 20px 10px
+            &--about
+                padding 20px
+    
+
+@media all and (max-width: 480px)
+    .container
+        padding 15px
+    .article
+        padding 0 0 50px
+    .share_social
+        bottom 0
+        top auto
+        right 20px
+        left 20px
+        flex-direction row
+        justify-content space-between
+    .main_content .tags
+        display none
+    .article_title
+        background #f4f5f6
+        margin 0
+        position relative
+        top -3px
+        text-align center
+        padding 10px 50px
+        color #5d6871
+    .top_menu
+        .menu_link
+            display none
+            &--about
+                display block
+            &--tags
+                display block
+
+    .article_description
+        border-top none
+    .logo
+        img 
+            max-width 70%
+    .top_menu
+        position relative
+        justify-content flex-start
+        .menu_link--about
+        .menu_link--tags
+        .menu_link--menu
+            display block
+            padding 9px 5px
+            width 32px
+            height 32px
+            margin 0 1px
+            font-size 1.8rem
+        .menu_link--menu
+            position absolute
+            right 0px

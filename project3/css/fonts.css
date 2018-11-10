@@ -1,0 +1,67 @@
+/* cantarell-regular - latin */
+@font-face {
+    font-family: 'Cantarell';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/cantarell-v7-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local('Cantarell Regular'), local('Cantarell-Regular'),
+         url('../fonts/cantarell-v7-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/cantarell-v7-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/cantarell-v7-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/cantarell-v7-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/cantarell-v7-latin-regular.svg#Cantarell') format('svg'); /* Legacy iOS */
+  }
+  /* cantarell-700 - latin */
+  @font-face {
+    font-family: 'Cantarell';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/cantarell-v7-latin-700.eot'); /* IE9 Compat Modes */
+    src: local('Cantarell Bold'), local('Cantarell-Bold'),
+         url('../fonts/cantarell-v7-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/cantarell-v7-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/cantarell-v7-latin-700.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/cantarell-v7-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/cantarell-v7-latin-700.svg#Cantarell') format('svg'); /* Legacy iOS */
+  }
+
+
+  @font-face {
+    font-family: "ArialNarrowRegular";
+    src: url("../fonts/ArialNarrowRegular/ArialNarrowRegular.eot");
+    src: url("../fonts/ArialNarrowRegular/ArialNarrowRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ArialNarrowRegular/ArialNarrowRegular.woff") format("woff"),
+    url("../fonts/ArialNarrowRegular/ArialNarrowRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "ArialNarrowBold";
+    src: url("../fonts/ArialNarrowBold/ArialNarrowBold.eot");
+    src: url("../fonts/ArialNarrowBold/ArialNarrowBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ArialNarrowBold/ArialNarrowBold.woff") format("woff"),
+    url("../fonts/ArialNarrowBold/ArialNarrowBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "ArialNarrowItalic";
+    src: url("../fonts/ArialNarrowItalic/ArialNarrowItalic.eot");
+    src: url("../fonts/ArialNarrowItalic/ArialNarrowItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ArialNarrowItalic/ArialNarrowItalic.woff") format("woff"),
+    url("../fonts/ArialNarrowItalic/ArialNarrowItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "ArialNarrowBoldItalic";
+    src: url("../fonts/ArialNarrowBoldItalic/ArialNarrowBoldItalic.eot");
+    src: url("../fonts/ArialNarrowBoldItalic/ArialNarrowBoldItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ArialNarrowBoldItalic/ArialNarrowBoldItalic.woff") format("woff"),
+    url("../fonts/ArialNarrowBoldItalic/ArialNarrowBoldItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
