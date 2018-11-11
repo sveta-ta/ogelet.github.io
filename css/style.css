@@ -54,6 +54,26 @@
 .projects .title{
     text-align: center;
     font-size: 60px;
+    margin-bottom: 50px;
+    letter-spacing: 5px;
+}
+.project{
+    padding: 30px 100px;
+    margin: 0 auto;
+    border: 1px solid #fff;
+    box-shadow: 1px 2px 17px rgba(0, 0, 0, .06);
+    display: block;
+    margin-bottom: 25px;
+    text-decoration: none;
+}
+.project img{
+    max-width: 100%;
+}
+.project_title{
+    color: #0b2b41;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 30px;
 }
 .footer{
     padding: 30px 10px;
