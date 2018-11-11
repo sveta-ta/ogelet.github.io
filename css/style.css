@@ -75,6 +75,12 @@
     display: block;
     margin-bottom: 30px;
 }
+.resume{
+    margin: 40px 0;
+}
+.resume .title{
+    color: #51557b;
+}
 .footer{
     padding: 30px 10px;
     background: #0b2b41;
