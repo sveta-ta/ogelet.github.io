@@ -1,0 +1,336 @@
+/* roboto-regular - latin */
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v19-latin-regular.eot');
+    /* IE9 Compat Modes */
+    src: local('Roboto'), local('Roboto-Regular'), url('../fonts/roboto-v19-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/roboto-v19-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/roboto-v19-latin-regular.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/roboto-v19-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/roboto-v19-latin-regular.svg#Roboto') format('svg');
+    /* Legacy iOS */
+}
+
+
+/* roboto-500 - latin */
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/roboto-v19-latin-500.eot');
+    /* IE9 Compat Modes */
+    src: local('Roboto Medium'), local('Roboto-Medium'), url('../fonts/roboto-v19-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/roboto-v19-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/roboto-v19-latin-500.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/roboto-v19-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/roboto-v19-latin-500.svg#Roboto') format('svg');
+    /* Legacy iOS */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(../images/Background.jpg) center no-repeat;
+    background-size: cover;
+    color: #fff;
+    font: 400 20px 'Roboto', Aril, sans-serif;
+    min-height: 100vh;
+}
+
+body a {
+    color: #ffffff;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: all ease .2s;
+}
+
+body a:hover {
+    color: #2c99ed;
+    border-bottom: 1px solid #2c99ed;
+}
+
+.container {
+    max-width: 1220px;
+    padding: 0 10px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-header {
+    padding: 33px 0;
+    margin-bottom: 35vh;
+}
+
+.burger,
+.logo,
+.burger:hover,
+.logo:hover {
+    border-bottom: none;
+}
+
+.burger {
+    position: relative;
+    z-index: 10;
+}
+
+.burger .line {
+    display: block;
+    width: 28px;
+    height: 3px;
+    border-radius: 1px;
+    margin-bottom: 5px;
+    background: #ffffff;
+    transition: all ease .2s;
+}
+
+.burger.close .line:first-child {
+    transform: rotate(45deg);
+    position: absolute;
+}
+
+.burger.close .line:nth-child(2) {
+    display: none;
+}
+
+.burger.close .line:nth-child(3) {
+    transform: rotate(-45deg);
+}
+
+.side-menu {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .8);
+    padding-top: 20vh;
+    z-index: 2;
+}
+
+.side-menu .nav-link {
+    display: block;
+    text-align: center;
+    font-size: 35px;
+    max-width: 800px;
+    margin: 0 auto 100px;
+    border-bottom: none;
+}
+
+.side-menu .nav-link:hover {
+    border-bottom: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.main-nav {
+    padding-top: 7px;
+}
+
+.main-nav-link {
+    margin: 0 25px;
+    letter-spacing: .3px;
+}
+
+.main-title {
+    padding-top: 15px;
+    font: 600 72px "Avenir Next Cyr", Arial, sans-serif;
+    letter-spacing: -4px;
+    margin-bottom: 30px;
+}
+
+.hero {
+    padding: 0 80px;
+    margin-bottom: 25vh;
+}
+
+.about {
+    margin-right: 30px;
+}
+
+.about .text {
+    opacity: 0.8;
+    font-size: 22px;
+    max-width: 460px;
+}
+
+.form-title {
+    font: 16px "Avenir Next Cyr", Arial, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.sign-up-form {
+    border-radius: 4px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.05);
+    max-width: 780px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.sign-up-form input {
+    font-size: 18px;
+    width: 100%;
+    min-height: 60px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 17px 20px;
+    color: #fff;
+}
+
+.sign-up-form input::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #fff;
+    opacity: .8;
+    /* Firefox */
+}
+
+.sign-up-form input:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #fff;
+    opacity: .8;
+}
+
+.sign-up-form input::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #fff;
+    opacity: .8;
+}
+
+.sign-up-form input:last-child {
+    border-bottom: none;
+}
+
+.show-password {
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: 20px;
+    top: 140px;
+    background: url(../images/hide.png) no-repeat center;
+    border-bottom: none;
+}
+
+.show-password.visible {
+    background: url(../images/view.png) no-repeat center;
+}
+
+.show-password:hover {
+    border-bottom: none;
+}
+
+.submit-button {
+    width: 100%;
+    text-align: center;
+    min-height: 60px;
+    border-radius: 0 0 4px 4px;
+    background-color: #2c99ed;
+    border: none;
+    font-size: 18px;
+    color: #ffffff;
+    transition: all ease .2s;
+    cursor: pointer;
+}
+
+.submit-button:hover,
+.submit-button:focus {
+    background-color: #1f7abf;
+}
+
+.agreement {
+    color: #9b9b9b;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.copyright {
+    font-size: 14px;
+}
+
+.footer {
+    padding-bottom: 20px;
+}
+
+.footer .container {
+    align-items: center;
+}
+
+.footer-menu-link {
+    font-family: "Avenir Next Cyr", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+
+@media only screen and (max-width: 1300px) {
+    .main-title {
+        font-size: 50px;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .main-title {
+        font-size: 35px;
+        letter-spacing: 0;
+    }
+    .hero {
+        padding: 0;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo {
+        align-self: flex-start;
+        margin-bottom: 20px;
+    }
+    .burger {
+        position: absolute;
+        top: 35px;
+        right: 20px;
+    }
+    .about {
+        margin: 0 0 30px;
+    }
+    .main-header {
+        margin-bottom: 20vh;
+    }
+    .copyright {
+        margin-bottom: 20px;
+    }
+}
+
+@media all and (max-width: 550px) {
+    .footer-menu-link,
+    .main-nav-link {
+        display: inline-block;
+        margin: 0 20px 20px 0;
+    }
+    .footer-menu-link {
+        font-size: 12px;
+    }
+    .side-menu .nav-link {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+}
