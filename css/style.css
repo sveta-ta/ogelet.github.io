@@ -177,3 +177,24 @@ body {
     height: 20px;
     margin-left: 15px;
 }
+
+@media all and (max-width: 980px) {
+    .header .container {
+        flex-direction: column;
+    }
+    .contacts a {
+        margin: 0 25px 0 0;
+    }
+}
+
+@media all and (max-width: 710px) {
+    .contacts {
+        flex-direction: column;
+    }
+    .project {
+        padding: 15px 0;
+    }
+    .project_title {
+        font-size: 18px;
+    }
+}
