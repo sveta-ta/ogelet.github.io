@@ -11,7 +11,7 @@ function init() {
 }
 
 function draw() {
-    ctx.fillStyle = `hsla(${Math.random() * 350}, 94%, 60%, .4)`;
+    ctx.fillStyle = `hsla(${Math.random() * 350}, 94%, 50%, .5)`;
     ctx.lineWidth = 1;
 
     if (i < 50) {

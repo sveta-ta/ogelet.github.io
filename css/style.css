@@ -119,6 +119,12 @@ body {
     display: block;
 }
 
+.project p {
+    color: #333;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
 .project img {
     max-width: 100%;
     border-radius: 20px;

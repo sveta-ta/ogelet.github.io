@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font: 18px Arial, sans-serif;
+    color: #333;
+    text-align: center;
+}
+
+.header{
+    padding: 15vh 10px;
+}
+
+.input,
+.btn{
+    display: inline-block;
+    height: 50px;
+    padding: 10px 25px;
+    font-size: 24px;
+    border-radius: 3px;
+    box-shadow: none;
+    border: 1px solid #ccc;
+    transition: all ease .2s;
+}
+
+.btn{
+    background: rgb(238, 136, 17);
+    color: #fff;
+    border: none;
+    padding: 10px 50px;
+}
+.input:focus {
+    border: 1px solid #333;
+    outline: none;
+}
+
+.btn:hover {
+    background: rgb(247, 125, 8);
+}
+
+.results {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 50px 15px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border: 1px solid #ccc;
+    margin-bottom: 30px;
+}
+
+.item-info{
+    text-align: left;
+    padding: 50px;
+}
+
+.item .title{
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.item .description{
+    font-size: 20px;
+    margin-bottom: 30px;
+    line-height: 1.7;
+}
+
+.item .link{
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: all ease .2s;
+    color: rgb(247, 125, 8);
+}
+.item .img{
+    align-self: flex-start;
+    max-width: 50%;
+}
+.item .link:hover{
+    border-color: rgb(247, 125, 8);
+}
+@media all and (max-width: 900px){
+    .input, .btn{
+        padding: 10px;
+    }
+}
+
+@media all and (max-width: 800px){
+
+    .input, .btn{
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+}
+
+@media all and (max-width: 700px){
+
+    .input, .btn{
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .item{
+        flex-direction: column;
+        justify-content: center;
+        padding: 30px;
+    }
+
+    .item-info{
+        padding: 0;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .results .item img{
+        align-self: center;
+        max-width: 100%;
+    }
+}
+
+@media all and (max-width: 500px){
+    .item{
+        padding: 0;
+    }
+
+    .item-info{
+        padding: 20px;
+    }
+}
