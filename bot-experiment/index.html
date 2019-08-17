@@ -8,12 +8,45 @@
 </head>
 <body>
     <h1>Choose your product</h1>
-    <form action="">
+    <form id="products-form" action="">
         <label for="productA">A</label>
-        <input type="radio" name="product" id="productA">
+        <input type="radio" name="product" value="productA" id="productA">
         <label for="productB">B</label>
-        <input type="radio" name="product" id="productB">
+        <input type="radio" name="product" value="productB" id="productB">
         <button id='submit'>Submit</button>
     </form>
+    <script>
+        const searchParams = new URLSearchParams(window.location.search);
+        const sessionToken=searchParams.get('SessionToken');
+        console.log(sessionToken);
+        document.querySelector('#submit').addEventListener('click', submitOrder);
+        function submitOrder (event){
+            event.preventDefault();
+            const radioBtns = document.querySelector('#products-form').elements['product'];
+            for (let i=0; i<radioBtns.length; i++) {
+                if ( radioBtns[i].checked ) { 
+                    const value = radioBtns[i].value;
+                    console.log(value);
+                    const data = {
+                        'authentication': sessionToken,
+                        'product': value       
+                    };
+                    fetch('https://xcwlzq8fv0.execute-api.us-east-1.amazonaws.com/test/updateuserorder', {
+                            method: 'POST',
+                            mode: 'no-cors',
+                            headers: {
+                                'authentication': sessionToken,
+                                'product': value
+                            },
+                            body: JSON.stringify(data)
+                        })
+                    break;
+                }
+            }
+        }
+    </script>
 </body>
+
 </html>
+
+

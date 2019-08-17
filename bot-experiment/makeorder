@@ -1,0 +1,49 @@
+'use strict';
+    
+const AWS = require('aws-sdk');
+const cognitoIdentityServiceProvider = new AWS.CognitoIdentityServiceProvider();
+
+
+exports.handler = (event, context, callback) => {
+    const phoneNumber = event.currentIntent.slots.PhoneNumber;
+    const USER_POOL_ID = 'us-east-1_5L7OMdWGY';
+    //phoneNumber.toString().substring(2);
+    const userName = '6467377667';
+    const CLIENT_ID = '7gob3in412cb9pdv1btuga7ke9';
+    
+    var params = {
+        AuthFlow: 'ADMIN_NO_SRP_AUTH',
+        ClientId: CLIENT_ID,
+        UserPoolId: USER_POOL_ID,
+        AuthParameters: {
+            'USERNAME': userName,
+            'PASSWORD': '6467377667'
+        },
+    };
+    
+    cognitoIdentityServiceProvider.adminInitiateAuth(params, function(err, data) {
+        if (err) {
+            console.log('ERRRROR ---------', err, err.stack);
+        } else {
+            console.log('SUCCESS !!!!!!!', data);
+            console.log('SUCCESS !!!!!!!');
+            data.Session;
+        }
+        return data;
+    });
+
+
+    
+    
+    return  {
+        "dialogAction": {
+            "type": "ElicitIntent",
+            "message": {
+            "contentType": "PlainText",
+            "content": `Sure, just go on our website and make your choice https://order-bot.000webhostapp.com/?SessionToken=`
+            }
+        }
+    };
+
+
+};
