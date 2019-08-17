@@ -112,23 +112,40 @@ header {
     transition: all ease .2s;
     font-size: 16px;
     font-style: italic;
+    font-weight: 600;
 }
 
-.contact:hover {
-    color: #0a6f68;
+.contact-link{
+    margin-right: 35px;
+}
+
+.contact-link:hover .contact{
+    color: #0128ad;
+}
+
+.contact-link:hover svg{
+    fill: #0128ad;
+}
+
+.footer .contact-link:hover .contact{
+    color: #46dad4;
+}
+
+.footer .contact-link:hover svg{
+    fill: #46dad4;
 }
 
 .main-title {
     color: #fff;
-    line-height: 1.25;
+    line-height: 1.75;
     text-transform: uppercase;
     font-size: 48px;
     text-align: center;
+    text-shadow: 2px 3px #333;
 }
 
 section {
-    min-height: 100vh;
-    padding: 100px 40px;
+    padding: 70px 40px;
 }
 
 .title {
@@ -162,15 +179,14 @@ section {
 }
 
 .contact-form {
-    background: #ccc;
     padding: 0;
+    display: flex;
 }
 
 .contact-form .container {
     margin: 0;
     background: #ffffff;
-    margin-left: calc(100vw - 700px);
-    padding: 50px;
+    padding: 30px 50px;
     min-height: 100vh;
 }
 
@@ -198,8 +214,24 @@ legend {
 .textarea {
     background: transparent;
     border: 1px solid #333;
-    padding: 10px 5px;
+    padding: 10px;
     width: 330px;
+    font: 500 18px 'El Messiri', arial, sans-serif;
+}
+
+.button{
+    padding: 10px 50px;
+    color: #ffffff;
+    background: #46dad4;
+    font: 500 20px 'El Messiri', arial, sans-serif;
+    cursor: pointer;
+    border-radius: 3px;
+    border: none;
+}
+
+.button:hover,
+.button:focus{
+    background: #12928d;
 }
 
 .list .left img {
@@ -213,7 +245,7 @@ legend {
 .list .left,
 .list .right {
     display: flex;
-    margin-bottom: 35px;
+    margin-bottom: 70px;
     align-items: flex-start;
 }
 
@@ -226,4 +258,30 @@ legend {
     content: "";
     clear: both;
     display: table;
+}
+
+.footer-contacts{
+    position: static;
+    justify-content: flex-start;
+    background: #333;
+}
+
+.footer-contacts .contact{
+    color: #fff;
+}
+
+.contacts svg{
+    fill: #333;
+    width: 18px;
+    height: 18px;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+.footer-contacts svg{
+    fill: #fff;
+    width: 18px;
+    height: 18px;
+    margin-right: 20px;
+    vertical-align: middle;
 }
