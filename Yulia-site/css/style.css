@@ -1,0 +1,229 @@
+/* el-messiri-regular - cyrillic */
+
+@font-face {
+    font-family: 'El Messiri';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/el-messiri-v5-cyrillic-regular.eot');
+    /* IE9 Compat Modes */
+    src: local('El Messiri'), local('ElMessiri-Regular'), url('../fonts/el-messiri-v5-cyrillic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/el-messiri-v5-cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/el-messiri-v5-cyrillic-regular.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/el-messiri-v5-cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/el-messiri-v5-cyrillic-regular.svg#ElMessiri') format('svg');
+    /* Legacy iOS */
+}
+
+
+/* el-messiri-500 - cyrillic */
+
+@font-face {
+    font-family: 'El Messiri';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/el-messiri-v5-cyrillic-500.eot');
+    /* IE9 Compat Modes */
+    src: local('El Messiri Medium'), local('ElMessiri-Medium'), url('../fonts/el-messiri-v5-cyrillic-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/el-messiri-v5-cyrillic-500.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/el-messiri-v5-cyrillic-500.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/el-messiri-v5-cyrillic-500.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/el-messiri-v5-cyrillic-500.svg#ElMessiri') format('svg');
+    /* Legacy iOS */
+}
+
+
+/* el-messiri-600 - cyrillic */
+
+@font-face {
+    font-family: 'El Messiri';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/el-messiri-v5-cyrillic-600.eot');
+    /* IE9 Compat Modes */
+    src: local('El Messiri SemiBold'), local('ElMessiri-SemiBold'), url('../fonts/el-messiri-v5-cyrillic-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/el-messiri-v5-cyrillic-600.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/el-messiri-v5-cyrillic-600.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/el-messiri-v5-cyrillic-600.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/el-messiri-v5-cyrillic-600.svg#ElMessiri') format('svg');
+    /* Legacy iOS */
+}
+
+
+/* el-messiri-700 - cyrillic */
+
+@font-face {
+    font-family: 'El Messiri';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/el-messiri-v5-cyrillic-700.eot');
+    /* IE9 Compat Modes */
+    src: local('El Messiri Bold'), local('ElMessiri-Bold'), url('../fonts/el-messiri-v5-cyrillic-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/el-messiri-v5-cyrillic-700.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/el-messiri-v5-cyrillic-700.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/el-messiri-v5-cyrillic-700.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/el-messiri-v5-cyrillic-700.svg#ElMessiri') format('svg');
+    /* Legacy iOS */
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font: 400 18px 'El Messiri', arial, sans-serif;
+}
+
+img {
+    max-height: 100vh;
+}
+
+header {
+    display: flex;
+    background: url(../img/8.jpg) center no-repeat;
+    background-size: cover;
+    padding-top: 30vh;
+    min-height: 100vh;
+}
+
+.contacts {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 30px;
+    background: rgba(255, 255, 255, .9);
+    position: fixed;
+    top: 0;
+    width: 100vw;
+}
+
+.contacts img {
+    opacity: .8;
+    max-width: 18px;
+    height: auto;
+    margin-right: 15px;
+}
+
+.contact {
+    margin-right: 20px;
+    color: #333333;
+    text-decoration: none;
+    transition: all ease .2s;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.contact:hover {
+    color: #0a6f68;
+}
+
+.main-title {
+    color: #fff;
+    line-height: 1.25;
+    text-transform: uppercase;
+    font-size: 48px;
+    text-align: center;
+}
+
+section {
+    min-height: 100vh;
+    padding: 100px 40px;
+}
+
+.title {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.title.title-small {
+    font-size: 30px;
+}
+
+.title.title-small:after {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 50%;
+    margin: 60px auto 0;
+    background: #333;
+}
+
+.text {
+    margin-bottom: 10px;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.contact-form {
+    background: #ccc;
+    padding: 0;
+}
+
+.contact-form .container {
+    margin: 0;
+    background: #ffffff;
+    margin-left: calc(100vw - 700px);
+    padding: 50px;
+    min-height: 100vh;
+}
+
+.contact-form .title {
+    text-align: left;
+}
+
+.form {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 30px 30px 30px 0;
+}
+
+label {
+    vertical-align: top;
+    display: inline-block;
+    min-width: 300px;
+}
+
+legend {
+    margin-bottom: 15px;
+}
+
+.input,
+.textarea {
+    background: transparent;
+    border: 1px solid #333;
+    padding: 10px 5px;
+    width: 330px;
+}
+
+.list .left img {
+    margin-right: 50px;
+}
+
+.list .right img {
+    margin-left: 50px;
+}
+
+.list .left,
+.list .right {
+    display: flex;
+    margin-bottom: 35px;
+    align-items: flex-start;
+}
+
+.list img {
+    max-width: 550px;
+    height: auto;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
