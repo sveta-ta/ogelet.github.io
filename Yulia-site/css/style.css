@@ -1,287 +1,406 @@
 /* el-messiri-regular - cyrillic */
 
 @font-face {
-    font-family: 'El Messiri';
-    font-style: normal;
-    font-weight: 400;
-    src: url('../fonts/el-messiri-v5-cyrillic-regular.eot');
-    /* IE9 Compat Modes */
-    src: local('El Messiri'), local('ElMessiri-Regular'), url('../fonts/el-messiri-v5-cyrillic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('../fonts/el-messiri-v5-cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */
-    url('../fonts/el-messiri-v5-cyrillic-regular.woff') format('woff'), /* Modern Browsers */
-    url('../fonts/el-messiri-v5-cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-    url('../fonts/el-messiri-v5-cyrillic-regular.svg#ElMessiri') format('svg');
-    /* Legacy iOS */
+  font-family: "El Messiri";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/el-messiri-v5-cyrillic-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("El Messiri"), local("ElMessiri-Regular"),
+    url("../fonts/el-messiri-v5-cyrillic-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/el-messiri-v5-cyrillic-regular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/el-messiri-v5-cyrillic-regular.woff") format("woff"),
+    /* Modern Browsers */ url("../fonts/el-messiri-v5-cyrillic-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/el-messiri-v5-cyrillic-regular.svg#ElMessiri") format("svg");
+  /* Legacy iOS */
 }
-
 
 /* el-messiri-500 - cyrillic */
 
 @font-face {
-    font-family: 'El Messiri';
-    font-style: normal;
-    font-weight: 500;
-    src: url('../fonts/el-messiri-v5-cyrillic-500.eot');
-    /* IE9 Compat Modes */
-    src: local('El Messiri Medium'), local('ElMessiri-Medium'), url('../fonts/el-messiri-v5-cyrillic-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('../fonts/el-messiri-v5-cyrillic-500.woff2') format('woff2'), /* Super Modern Browsers */
-    url('../fonts/el-messiri-v5-cyrillic-500.woff') format('woff'), /* Modern Browsers */
-    url('../fonts/el-messiri-v5-cyrillic-500.ttf') format('truetype'), /* Safari, Android, iOS */
-    url('../fonts/el-messiri-v5-cyrillic-500.svg#ElMessiri') format('svg');
-    /* Legacy iOS */
+  font-family: "El Messiri";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/el-messiri-v5-cyrillic-500.eot");
+  /* IE9 Compat Modes */
+  src: local("El Messiri Medium"), local("ElMessiri-Medium"),
+    url("../fonts/el-messiri-v5-cyrillic-500.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/el-messiri-v5-cyrillic-500.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/el-messiri-v5-cyrillic-500.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../fonts/el-messiri-v5-cyrillic-500.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/el-messiri-v5-cyrillic-500.svg#ElMessiri") format("svg");
+  /* Legacy iOS */
 }
-
 
 /* el-messiri-600 - cyrillic */
 
 @font-face {
-    font-family: 'El Messiri';
-    font-style: normal;
-    font-weight: 600;
-    src: url('../fonts/el-messiri-v5-cyrillic-600.eot');
-    /* IE9 Compat Modes */
-    src: local('El Messiri SemiBold'), local('ElMessiri-SemiBold'), url('../fonts/el-messiri-v5-cyrillic-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('../fonts/el-messiri-v5-cyrillic-600.woff2') format('woff2'), /* Super Modern Browsers */
-    url('../fonts/el-messiri-v5-cyrillic-600.woff') format('woff'), /* Modern Browsers */
-    url('../fonts/el-messiri-v5-cyrillic-600.ttf') format('truetype'), /* Safari, Android, iOS */
-    url('../fonts/el-messiri-v5-cyrillic-600.svg#ElMessiri') format('svg');
-    /* Legacy iOS */
+  font-family: "El Messiri";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/el-messiri-v5-cyrillic-600.eot");
+  /* IE9 Compat Modes */
+  src: local("El Messiri SemiBold"), local("ElMessiri-SemiBold"),
+    url("../fonts/el-messiri-v5-cyrillic-600.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/el-messiri-v5-cyrillic-600.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/el-messiri-v5-cyrillic-600.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../fonts/el-messiri-v5-cyrillic-600.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/el-messiri-v5-cyrillic-600.svg#ElMessiri") format("svg");
+  /* Legacy iOS */
 }
-
 
 /* el-messiri-700 - cyrillic */
 
 @font-face {
-    font-family: 'El Messiri';
-    font-style: normal;
-    font-weight: 700;
-    src: url('../fonts/el-messiri-v5-cyrillic-700.eot');
-    /* IE9 Compat Modes */
-    src: local('El Messiri Bold'), local('ElMessiri-Bold'), url('../fonts/el-messiri-v5-cyrillic-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('../fonts/el-messiri-v5-cyrillic-700.woff2') format('woff2'), /* Super Modern Browsers */
-    url('../fonts/el-messiri-v5-cyrillic-700.woff') format('woff'), /* Modern Browsers */
-    url('../fonts/el-messiri-v5-cyrillic-700.ttf') format('truetype'), /* Safari, Android, iOS */
-    url('../fonts/el-messiri-v5-cyrillic-700.svg#ElMessiri') format('svg');
-    /* Legacy iOS */
+  font-family: "El Messiri";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/el-messiri-v5-cyrillic-700.eot");
+  /* IE9 Compat Modes */
+  src: local("El Messiri Bold"), local("ElMessiri-Bold"),
+    url("../fonts/el-messiri-v5-cyrillic-700.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/el-messiri-v5-cyrillic-700.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/el-messiri-v5-cyrillic-700.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../fonts/el-messiri-v5-cyrillic-700.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/el-messiri-v5-cyrillic-700.svg#ElMessiri") format("svg");
+  /* Legacy iOS */
 }
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html {
-    font: 400 18px 'El Messiri', arial, sans-serif;
+  font: 400 18px "El Messiri", arial, sans-serif;
 }
 
 img {
-    max-height: 100vh;
+  max-height: 100vh;
 }
 
 header {
-    display: flex;
-    background: url(../img/8.jpg) center no-repeat;
-    background-size: cover;
-    padding-top: 30vh;
-    min-height: 100vh;
+  display: flex;
+  background: url(../img/8.jpg) center no-repeat;
+  background-size: cover;
+  padding-top: 30vh;
+  min-height: 100vh;
 }
 
 .contacts {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 20px 30px;
-    background: rgba(255, 255, 255, .9);
-    position: fixed;
-    top: 0;
-    width: 100vw;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px 30px;
+  background: rgba(255, 255, 255, 0.9);
+  position: fixed;
+  top: 0;
+  width: 100vw;
 }
 
 .contacts img {
-    opacity: .8;
-    max-width: 18px;
-    height: auto;
-    margin-right: 15px;
+  opacity: 0.8;
+  max-width: 18px;
+  height: auto;
+  margin-right: 15px;
 }
 
 .contact {
-    margin-right: 20px;
-    color: #333333;
-    text-decoration: none;
-    transition: all ease .2s;
-    font-size: 16px;
-    font-style: italic;
-    font-weight: 600;
+  margin-right: 20px;
+  color: #333333;
+  text-decoration: none;
+  transition: all ease 0.2s;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 600;
 }
 
-.contact-link{
-    margin-right: 35px;
+.contact-link {
+  margin-right: 35px;
 }
 
-.contact-link:hover .contact{
-    color: #0128ad;
+.contact-link:hover .contact {
+  color: #0128ad;
 }
 
-.contact-link:hover svg{
-    fill: #0128ad;
+.contact-link:hover svg {
+  fill: #0128ad;
 }
 
-.footer .contact-link:hover .contact{
-    color: #46dad4;
+.footer .contact-link:hover .contact {
+  color: #46dad4;
 }
 
-.footer .contact-link:hover svg{
-    fill: #46dad4;
+.footer .contact-link:hover svg {
+  fill: #46dad4;
 }
 
 .main-title {
-    color: #fff;
-    line-height: 1.75;
-    text-transform: uppercase;
-    font-size: 48px;
-    text-align: center;
-    text-shadow: 2px 3px #333;
+  color: #fff;
+  line-height: 1.75;
+  text-transform: uppercase;
+  font-size: 48px;
+  text-align: center;
+  text-shadow: 2px 3px #333;
 }
 
 section {
-    padding: 70px 40px;
+  padding: 70px 40px;
 }
 
 .title {
-    margin-bottom: 30px;
-    text-align: center;
-    font-size: 50px;
-    letter-spacing: 2px;
-    font-weight: 700;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 50px;
+  letter-spacing: 2px;
+  font-weight: 700;
 }
 
 .title.title-small {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 .title.title-small:after {
-    content: '';
-    display: block;
-    height: 1px;
-    width: 50%;
-    margin: 60px auto 0;
-    background: #333;
+  content: "";
+  display: block;
+  height: 1px;
+  width: 50%;
+  margin: 60px auto 0;
+  background: #333;
 }
 
 .text {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .container {
-    max-width: 1170px;
-    margin: 0 auto;
+  max-width: 1170px;
+  margin: 0 auto;
 }
 
 .contact-form {
-    padding: 0;
-    display: flex;
+  padding: 0;
+  display: flex;
 }
 
 .contact-form .container {
-    margin: 0;
-    background: #ffffff;
-    padding: 30px 50px;
-    min-height: 100vh;
+  margin: 0;
+  background: #ffffff;
+  padding: 30px 50px;
+  min-height: 100vh;
 }
 
 .contact-form .title {
-    text-align: left;
+  text-align: left;
 }
 
 .form {
-    max-width: 700px;
-    margin: 0 auto;
-    padding: 30px 30px 30px 0;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 30px 30px 30px 0;
 }
 
 label {
-    vertical-align: top;
-    display: inline-block;
-    min-width: 300px;
+  vertical-align: top;
+  display: inline-block;
+  min-width: 300px;
 }
 
 legend {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .input,
 .textarea {
-    background: transparent;
-    border: 1px solid #333;
-    padding: 10px;
-    width: 330px;
-    font: 500 18px 'El Messiri', arial, sans-serif;
+  background: transparent;
+  border: 1px solid #333;
+  padding: 10px;
+  width: 330px;
+  font: 500 18px "El Messiri", arial, sans-serif;
 }
 
-.button{
-    padding: 10px 50px;
-    color: #ffffff;
-    background: #46dad4;
-    font: 500 20px 'El Messiri', arial, sans-serif;
-    cursor: pointer;
-    border-radius: 3px;
-    border: none;
+.button {
+  padding: 10px 50px;
+  color: #ffffff;
+  background: #46dad4;
+  font: 500 20px "El Messiri", arial, sans-serif;
+  cursor: pointer;
+  border-radius: 3px;
+  border: none;
 }
 
 .button:hover,
-.button:focus{
-    background: #12928d;
+.button:focus {
+  background: #12928d;
 }
 
 .list .left img {
-    margin-right: 50px;
+  margin-right: 50px;
 }
 
 .list .right img {
-    margin-left: 50px;
+  margin-left: 50px;
 }
 
 .list .left,
 .list .right {
-    display: flex;
-    margin-bottom: 70px;
-    align-items: flex-start;
+  display: flex;
+  margin-bottom: 70px;
+  align-items: flex-start;
 }
 
 .list img {
-    max-width: 550px;
-    height: auto;
+  max-width: 550px;
+  height: auto;
 }
 
 .clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
+  content: "";
+  clear: both;
+  display: table;
 }
 
-.footer-contacts{
-    position: static;
-    justify-content: flex-start;
-    background: #333;
+.footer-contacts {
+  position: static;
+  justify-content: flex-start;
+  background: #333;
 }
 
-.footer-contacts .contact{
-    color: #fff;
+.footer-contacts .contact {
+  color: #fff;
 }
 
-.contacts svg{
-    fill: #333;
-    width: 18px;
-    height: 18px;
+.contacts svg {
+  fill: #333;
+  width: 18px;
+  height: 18px;
+  margin-right: 20px;
+  vertical-align: middle;
+}
+
+.footer-contacts svg {
+  fill: #fff;
+  width: 18px;
+  height: 18px;
+  margin-right: 20px;
+  vertical-align: middle;
+}
+
+@media all and (max-width: 920px) {
+  .contacts {
+    flex-wrap: wrap;
+  }
+
+  .contact-link {
     margin-right: 20px;
-    vertical-align: middle;
+  }
+
+  .main-title {
+    font-size: 40px;
+    padding: 0 20px;
+  }
+
+  .title.title-small,
+  .title {
+    font-size: 20px;
+  }
+
+  section {
+    padding: 20px 30px;
+  }
+
+  .list .left,
+  .list .right {
+    flex-wrap: wrap;
+  }
+
+  .list .right {
+    flex-direction: column-reverse;
+  }
+
+  .list img {
+    max-width: 100%;
+  }
+
+  .contact-form {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+  }
+
+  .contact-form .container{
+      padding: 10px 0 0;
+  }
+
+  .contact-form img {
+    max-width: 100%;
+  }
+
+  .list-item {
+    list-style-position: inside;
+  }
+
+  .form {
+    max-width: 100%;
+    padding: 0;
+  }
+
+  label{
+      min-width: 200px;
+  }
 }
 
-.footer-contacts svg{
-    fill: #fff;
-    width: 18px;
-    height: 18px;
-    margin-right: 20px;
-    vertical-align: middle;
+@media all and (max-width: 520px) {
+  .contact {
+    margin-right: 10px;
+  }
+  .contacts svg {
+    margin-right: 5px;
+  }
+
+  .contact-link {
+    margin-right: 0;
+  }
+
+  .main-title {
+    font-size: 24px;
+  }
+  .title.title-small,
+  .title {
+    font-size: 18px;
+  }
+
+  section {
+    padding: 20px;
+  }
+
+  .list .right img {
+    margin: 0;
+  }
+
+  .input, .textarea{
+      max-width: 100%;
+  }
 }
